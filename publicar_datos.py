@@ -13,7 +13,7 @@ def procesar_csv(archivo_csv):
         campos = lector.fieldnames
         atributos = []
         
-        for campo in campos[2:]:  # Ignorar entityID y entityType para poder procesar cada vila.
+        for campo in campos[2:]:  # Ignorar entityID y entityType para poder procesar cada fila.
             nombre, tipo = campo.split("<")
             tipo = tipo.strip(">")
             atributos.append((nombre.strip(), tipo.strip()))
