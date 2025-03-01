@@ -1,0 +1,3 @@
+entityID,entityType,Speed<Number>,description<Text>
+"Seat_Ibiza","Car",210,"Coche de la marca Seat"
+"Porsche_911","Car",275,"Coche de la marca Porsche"

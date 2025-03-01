@@ -1,0 +1,3 @@
+entityID,entityType,Temperature<Number>,Pressure<Number>
+"Room1","Room",24,718
+"Room2","Room",17,720
